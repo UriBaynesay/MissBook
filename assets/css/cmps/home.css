@@ -1,0 +1,8 @@
+.home{
+    padding-inline: 1em;
+    flex-direction: column;
+}
+
+.home h2{
+    align-self: center;
+}

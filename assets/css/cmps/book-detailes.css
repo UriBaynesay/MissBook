@@ -1,0 +1,10 @@
+.book-details{
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-details span{
+    text-decoration: underline;
+    margin-inline-start: 2em;
+    cursor: pointer;
+}

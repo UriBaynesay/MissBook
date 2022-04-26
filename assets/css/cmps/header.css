@@ -1,0 +1,19 @@
+header{
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+header h1{
+    text-decoration: underline gray 1px;
+    align-self: center;
+}
+
+header nav{
+    padding: 20px 20px;
+    align-self: stretch;
+    background-color: rgb(252, 163, 17);
+}
+
+header nav>*:not(:last-child){
+    margin-inline-end: 2em;
+}
