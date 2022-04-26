@@ -1,0 +1,20 @@
+.user-msg-modal{
+    justify-content: space-between;
+    border-radius: 0.5em;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    min-width: 20%;
+    width: fit-content;
+    height: 2em;
+    padding-inline: 2em;
+}
+
+
+.user-msg-modal.warning{
+    box-shadow: 0 0 8px rgba(250, 143, 143, 0.815)
+}
+
+.user-msg-modal.success{
+    box-shadow: 0 0 8px rgb(182, 235, 182);
+}

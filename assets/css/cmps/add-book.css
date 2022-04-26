@@ -1,0 +1,25 @@
+.add-book-container {
+    position: relative;
+    width: 40%;
+}
+
+.add-book-container h3 {
+  margin-inline-end: 1em;
+}
+.add-book-container .books-to-add{
+  border-radius: 0.5em;
+    top:6px;
+    padding: 10px;
+    position: absolute;
+    background-color: rgb(229, 229, 229);
+}
+
+.add-book-container .add-book-item{
+  justify-content: space-between;
+}
+
+.add-book-item img{
+  cursor: pointer;
+  width: 1rem;
+  height: 1rem;
+}

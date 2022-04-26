@@ -1,0 +1,12 @@
+.book-preview {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 2em;
+    box-shadow: 0 0 13px 0px #00000047;
+    margin: 10px 0px;
+}
+
+.book-preview .book-title{
+    margin-inline-end: 1em;
+}
